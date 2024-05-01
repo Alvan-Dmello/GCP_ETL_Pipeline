@@ -1,6 +1,22 @@
 # SP24-I535-admello-Coviddata
 
 # Project Overview
-The Project contains information on 
+The Project aims to utilize GCP services such as BigQuery and Looker to store and analyse COVID-19 data present on the CDC website for the year 2020 to understand the spread and impact on various demographics and provide valuable information to healthcare professionals and policy makers on the dynamics of a pandemic.
 
-# Next header
+# Tools Used
+- Google Colab
+- Cloud Storage Bucket
+- BigQuery
+- Looker
+
+# Repository Folders
+/Data - Contains the data files downloaded from the [CDC]([url](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf/about_data)) website
+/Notebook - Contains the notebook used to authenticate GCP and perform preprocessing on data ingested from GCS
+/Looker - Contains the Looker 
+/Report - Contains the project report which contains detailed steps and results about how the project was performed and analysed.
+
+# How to use
+Refer to the Project report for a detailed description of the steps . All the files utilised for the project are present in this repository in respective folders. As a starting point, use the jupyter notebook.
+
+# Published Results
+The results from the analysis are the looker charts and graphs which are present in the Looker folder in this repository. Refer to the project report for a detailed explanation of the graphs
