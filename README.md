@@ -10,13 +10,10 @@ The Project aims to utilize GCP services such as BigQuery and Looker to store an
 - Looker
 
 # Repository Folders
-/Data - Contains the data files downloaded from the [CDC]([url](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf/about_data)) website
-
-/Notebook - Contains the notebook used to authenticate GCP and perform preprocessing on data ingested from GCS
-
-/Looker - Contains the Looker 
-
-/Report - Contains the project report which contains detailed steps and results about how the project was performed and analysed.
+- Data - Contains the data files downloaded from the [CDC]([url](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf/about_data)) website
+- Colab Notebook - Contains the notebook used to authenticate GCP and perform preprocessing on data ingested from GCS
+- Looker - Contains the Looker 
+- Report - Contains the project report which contains detailed steps and results about how the project was performed and analysed.
 
 # How to use
 Refer to the Project report for a detailed description of the steps . All the files utilised for the project are present in this repository in respective folders. As a starting point, use the jupyter notebook.
