@@ -1,4 +1,4 @@
-# SP24-I535-admello-Coviddata
+# GCP ETL Pipeline
 
 # Project Overview
 The Project aims to utilize GCP services such as BigQuery and Looker to store and analyse COVID-19 data present on the CDC website for the year 2020 to understand the spread and impact on various demographics and provide valuable information to healthcare professionals and policy makers on the dynamics of a pandemic.
